@@ -6,7 +6,7 @@ start_time: timestamp
 length: timedelta
 end_time: timestamp
 
-def index(_length: timedelta):
+def __init__(_length: timedelta):
   self.start_time = block.timestamp
   self.donorIndex = 0
   self.length = _length
